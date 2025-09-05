@@ -1,12 +1,37 @@
-# React + Vite
+# ⚛️ React Project — Setup & Development Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Getting Started
 
-Currently, two official plugins are available:
+Follow these steps to set up and run the project locally.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/mugesh-11/Task_Manager.git
+```
 
-## Expanding the ESLint configuration
+### 2️⃣ Change into the project directory
+```bash
+cd Task_Manager
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3️⃣ Open in Visual Studio Code 
+```bash
+# Opens the current directory in VS Code
+code .
+```
+
+### 4️⃣ Install dependencies
+```bash
+# Installs all npm dependencies listed in package.json
+npm install
+```
+
+### 5️⃣ Start the development server
+```bash
+# Starts the app in development mode (typically opens http://localhost:3000)
+npm run dev
+```
+
+> Tip: If your browser doesn't open automatically, visit: `http://localhost:3000`
+
+### ❤️ Thanks for using this project — happy coding!
